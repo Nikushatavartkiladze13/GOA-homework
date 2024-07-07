@@ -18,7 +18,8 @@ left(90)
 
 forward(200)
 left(90)
-#end of square
+
+
 
 #drawing a door
 
@@ -59,11 +60,12 @@ forward(70)
 right(90)
 
 forward(60)
-end_fill()
+end_fill() 
 
 penup()
 goto(200,200)
 pendown()
+
 
 color("orange")
 begin_fill()
