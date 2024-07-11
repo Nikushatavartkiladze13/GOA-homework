@@ -172,4 +172,9 @@ print("may favorite car is BMW")
 name = "Nika Tavarkiladze"
 
 print(name)
-print("name") 
+print("name") #არასწორია იმიტომ რომ ცვლადის სახელს არ სჭირდება ბრჭყალები ბრჭყალებით, კი გამოვა იგივე სახელი რასაც ბრჭყალებში მოვაქცევთ
+
+# დაპრინტეთ GOA is the best academy in georgia სწორი გზით და არასწორი გზით და ახსენით კომენტარებით რატომ არის ეკ გზა სწორი და რატომ არ არის მეორე გზა სწორი
+ 
+print("GOA is the best academy in geogia")
+# print"Goa is the best academy in geogia" არასწორია იმიტომ რომ აკლია ბრჩხილები
