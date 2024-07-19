@@ -20,4 +20,4 @@ print(a + b)
 
 name = input("enter your name")
 car = input("enter your car: ")
-print("gamarjoba me mpvia " + name + "me mkavs " + car)
+print("gamarjoba me mpvia " + name + " " + "me mkavs " + car)
