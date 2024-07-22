@@ -3,11 +3,11 @@
 
 #  2) შექმენით დროში მოგზაურობის პროგრამა, რომელიც მომხმარებელს შეეკითხება მის ამჟამინდელ ასაკს, ამჟამინდელ წელს, რამდენი წლით სურს დროში მოგზაურობა, შემდეგ კი პროგრამა დაბეჭდავს დროში მოგზაურობის შემდეგ რომელი წელი იქნება და რამდენი წლის იქნება მომხმარებელი დროში მოგზაურობის შემდეგ
 
-input("how old are you?: ")
-age = 20
-input("what year is it?: ")
-year = 2024
-input("How many years do you want to travel back in time?: ")
-travel_time = 6
+age = int(input("How old are you?: "))
+year = int(input("What year is it?: "))
+travel_time = int(input("How many years do you want to travel back in time?: "))
 
-print("After time travel from 2024, they will be 26 years old")
+
+new_age = age + travel_time
+
+print(f"After time travel from {year}, you will be {new_age} years old")
