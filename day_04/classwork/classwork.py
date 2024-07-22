@@ -1,19 +1,17 @@
-#num1 = int(input("enter first number: "))
-#num2 = int(input("enter second numbber: "))
+num1 = int(input("enter first number: "))
+num2 = int(input("enter second numbber: "))
 
-#print(num1 - num2)
-#print(num1 + num2)
-#print(num1 / num2)
-#print(num1 % num2)
-#print(num1 * num2)
-#print(num1 // num2)
+print(num1 - num2)
+print(num1 + num2)
+print(num1 / num2)
+print(num1 % num2)
+print(num1 * num2)
+print(num1 // num2)
 
+name = input("enter your name: ")
+age = input("enter your age: ")
 
-#name = input("enter your name: ")
-#age = input("enter your age: ")
-
-
-#print("gamarjoba, me var " + name + " " + age + " " + "wlis")
+print("gamarjoba, me var " + name + " " + age + " " + "wlis")
 
 name = input("enter your name: ")
 surname = input("enter your surname: ")

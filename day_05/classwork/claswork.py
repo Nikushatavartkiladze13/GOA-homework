@@ -2,6 +2,7 @@
 # running - გაშვება / კოდის წერა 
 # or beduggin - შეცდომების შესწორება / კოდში არსებული შეცდომების გასწორება
 
+
 print("hello")
 # parentheses - ფრიჩხილები
 # quotation marks  - ბრჭყალები
@@ -17,3 +18,4 @@ car = "BMW"
 car2 = "MERCEDES"
 print("I love",  car)
 print("I love", car2)
+# common - ხშირი

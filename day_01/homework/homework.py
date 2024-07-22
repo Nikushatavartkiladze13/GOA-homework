@@ -6,8 +6,8 @@ surname = "tavartkiladze"
 print(name)
 birth = "2009"
 name = "nika"         # (string-)
-age = "14"                  #(integer)
-height = "175,4"            #floot ტიპის (ათწილადი)
+age = 14                  #(integer)
+height = 175,4            #float ტიპის (ათწილადი)
 life = "khuloshi"
 knows_programming = True   #true or folse
 
