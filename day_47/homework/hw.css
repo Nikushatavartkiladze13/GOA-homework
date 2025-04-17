@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat';
+
+}
+
+
+.parent{
+    width: 35%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+  
+    
+
+
+
+}
+
+.child{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 0px 8px 8px 0px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img{
+    width: 50%;
+    height: 100%;
+    border-radius: 8px 0px 0px 8px;
+
+}
+
+
+
+.p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    opacity: 55%;
+}
+
+.h1{
+    font-family: 'Fraunces';
+    font-size: 2.4rem
+}
+
+.p1{
+    line-height: 24px;
+    opacity: 70%;
+    font-size: 1rem
+}
+
+
+.child_1{
+    width: 100%;
+    padding: 10px 10px 10px 0px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.dolari{
+    font-family: 'Fraunces';
+    color: hsl(158, 36%, 37%);
+
+
+}
+
+h4{
+    text-decoration: line-through;
+    opacity: 50%;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+
+.bt{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+}

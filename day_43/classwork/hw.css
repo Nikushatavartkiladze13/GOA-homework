@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    font-size: 25px;
+    color: blue;
+    padding: 50px;
+    list-style-type: disc;
+
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+
+ol{
+    list-style-type: lower-alpha;
+    color: red;
+    padding: 30px;
+
+}
+
+
+
+/* list-style-type: circle;
+list-style-type: square;
+list-style-type: upper-roman;
+list-style-type: lower-alpha; */

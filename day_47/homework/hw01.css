@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Figtree";
+}
+
+
+.box{
+    width: 400px;
+    padding: 20px;
+    border-radius: 23px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    box-shadow: 10px 10px 0px black;
+
+}
+
+.img{
+    border-radius: 20px;
+
+}
+
+.bt{
+    width: 90px;
+    padding: 8.5px;
+    border: none;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.p{
+    font-weight: 600;
+    font-size: 15.5px;
+
+    color: hsl(0, 0%, 7%)
+}
+
+.h1{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.p1{
+    width: 90%;
+    line-height: 23px;
+    color:hsl(0, 0%, 42%)
+}
+
+
+.child{
+    width: 50%;
+    /* height: 20px; */
+    padding: 10px 0px 10px 0px;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.img2{
+    width: 35px;
+
+}
+
+.avatar{
+    font-weight: 800;
+    font-size: 15px;
+}

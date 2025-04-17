@@ -1,0 +1,32 @@
+/* 3) გამოიყენეთ :visited რათა ყველა უმვე მონახულებული ლინკის ფერი იყოს იასამნისფერი */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction:column;
+    gap: 20px;
+
+}
+
+
+
+a{
+    color: blue;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+}
+
+
+a:visited{
+    color: red
+}
+

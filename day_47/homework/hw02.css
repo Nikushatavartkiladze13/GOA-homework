@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Outfit";
+}
+
+
+.parent{
+    width: 300px;
+    padding: 15px 15px 30px 15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 17px;
+    border-radius: 20px;
+    text-align: center;
+
+
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.h1{
+    font-size: 1.4rem;
+}
+
+
+.p{
+    font-size: 1rem;
+    color: hsl(216, 15%, 48%)
+}
