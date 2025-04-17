@@ -1,0 +1,53 @@
+<!-- 
+ შექმენით 4 ღილაკი პირველ ორში ეწერება ერთი და იგივე რამ და ორივეს ექნება ერთი და იგივე სტილი შეუცვალეთ უკანა ფონის ფერი, ტექსტის ფერი, ტექსტის ზომა ეს ყველაფერი პირველ ორ ღილაკს ექნება ერთნაირი, ხოლო დარჩენილ 2-ს ექნება განსხვავებული სტილები ერთმანეთისგან  გამოიყენეთ class, id 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            gap: 50px;
+        }
+        .bt00{
+            color: black;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 20px;
+            transition: 2s all;
+            cursor: cell;
+            
+        }
+        #bt01{
+            color: red;
+            text-shadow: 2px 2px 5px blue;
+            background-color:aqua;
+            border-radius: 10px;
+            padding: 15px;
+            cursor: copy;
+        }
+        #bt02{
+            color: blue;
+            background-color: black;
+            box-shadow: 6px 6px 40px blue;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button class="bt00">GOAl-oriented</button>
+    <button class="bt00">GOAl-oriented</button>
+    <button id="bt01">GOA BEST</button>
+    <button id="bt02">GOA</button>
+</body>
+</html>

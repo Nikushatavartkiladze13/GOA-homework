@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+p{
+    color: red;
+    text-shadow: 3px 3px 6px blue;
+    font-size: 40px;
+    cursor:cell;
+}

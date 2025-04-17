@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+p{
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 2px 5px red;
+    text-decoration: overline underline red;
+}

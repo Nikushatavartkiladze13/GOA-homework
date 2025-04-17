@@ -1,0 +1,43 @@
+*{
+    font-size: 35px;
+}
+.p00{
+text-decoration: underline dotted rgb(0, 255, 0);
+text-align:right
+}
+.p01{
+text-decoration:line-through;
+text-align: center;
+}
+.p02{
+text-decoration: overline double rgb(255, 0, 0);
+}
+.p03{
+text-decoration: underline;
+text-align: center;
+}
+.p04{
+text-align: right;
+text-decoration: line-through dotted rgb(0, 255, 0);
+}
+.p05{
+text-decoration: line-through;
+}
+.p06{
+text-decoration: overline solid;
+text-align:left
+}
+.p07{
+color:rgb(0, 145, 0) ;
+text-decoration: overline;
+text-align: right;
+}
+.p08{
+color:grey;
+text-align: center;
+text-decoration: overline;
+}
+.p09{
+text-decoration: underline dotted green;
+text-align: right;
+}

@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+h1{
+    color: black;
+    font-size: 24px;
+    text-decoration:underline blue;
+
+}
+h2{
+    color: red;
+    font-size: 16px;
+    text-decoration:underline green;
+
+}
+h1{
+    color: green;
+    font-size: 12px;
+    text-decoration:underline yellow;
+
+}
+h1{
+    color: yellow;
+    font-size: 35px;
+    text-decoration:underline rd;
+
+}

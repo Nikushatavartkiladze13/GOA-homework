@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+table{
+    width:700px;
+    height:300px;
+    text-align:center;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.tr01{
+    background-color:#00cccc;
+    color:white;
+    border: 1px solid black;
+}

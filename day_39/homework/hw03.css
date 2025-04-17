@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p{
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-decoration:line-through  blue;
+}
