@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+
+.YT00{
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.box00{
+    width: 20%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+#i00{
+    font-size:38px;
+    color:red;
+    position: relative;
+    left: 70px;
+    width: 170px;
+    height:70px;
+}
