@@ -1,0 +1,54 @@
+body{
+    background-color:rgb(255, 255, 255);
+}
+.box00{
+    width:80%;
+    height:390px;
+    border-radius:24px;
+    box-shadow: 0 0 20px  1000px rgb(245, 250, 255);
+    margin:auto;    
+    display:flex;
+}
+.Google_img00{
+    width:90px;
+    height:86px;
+    margin-left:20px;
+}
+h1{
+    width:450px;
+    font-size:30px;
+    padding:0 30px;
+    font-weight: 300;
+}
+form{
+    text-align:center;
+    width:650px;
+    height:100%;
+    background-color:rgb(255, 255, 255);
+    margin-left:10%;
+    border-radius:24px;
+}
+form input{
+    width:500px;
+    border-color:rgba(202, 202, 202, 0.527);
+    height:55px;
+    padding:0 17px;
+    border-radius:5px;
+    font-size:17px;
+}
+form button{
+    width:80px;
+    height:37px;
+    border-radius:20px;
+    background-color:rgb(69, 69, 233);
+    color:white;
+    margin-left:80%;
+    border:none;
+}
+p{
+    width:250px;
+    font-size:18px;
+    margin-left:30px;
+    color:rgb(49, 49, 49)
+
+}

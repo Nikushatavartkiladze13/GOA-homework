@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #83A6CE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:  100vh;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bt00{
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 14px;
+    box-shadow: 6px 6px 40px blue;
+    color:green;
+}
+.bt01{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 14px;
+    box-shadow: 6px 6px 40px blue;
+    color:green;
+}
+.bt02{
+    width: 170px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 14px;
+    box-shadow: 6px 6px 40px blue;
+    color:green;
+}
+.bt03{
+    width: 140px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 14px;
+    box-shadow: 6px 6px 40px blue;
+    color:green;
+}
+.bt04{
+    width: 110px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 14px;
+    box-shadow: 6px 6px 40px blue;
+    color:green;
+}
+.bt05{
+    width: 80px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 14px;
+    box-shadow: 6px 6px 40px blue;
+    color:green;
+}
+.bt06{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 14px;
+    box-shadow: 6px 6px 40px blue;
+    color:green;
+}
