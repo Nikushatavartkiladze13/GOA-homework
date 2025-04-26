@@ -1,0 +1,35 @@
+/*4. შექმენით ტექსტი, შემდეგ კი ანიმაციის მეშვეობით შეუცვალეთ ფერი, გამოიყენეთ @keyframes.  */
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+h1{
+    color: black;
+    font-size: 4rem;
+    font-weight: 600;
+    animation-name: changecolor;
+    animation-duration: 2s;
+
+}
+
+
+@keyframes changecolor{
+    from{
+        color: black;
+    }
+    to{
+        color: red;
+    }
+}

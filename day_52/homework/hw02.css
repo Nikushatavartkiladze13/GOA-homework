@@ -1,0 +1,29 @@
+/* შექმენით ნებისმიერი გეომეტრიული ფიგურა , რომელიც 30 გრადუსით ბრუნავს. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+div{
+
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+
+div:hover{
+    transform: rotate(30deg);
+}

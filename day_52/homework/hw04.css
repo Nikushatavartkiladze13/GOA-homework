@@ -1,0 +1,29 @@
+/* შექმენით კვადრატი, რომელიც 50px-ით მარჯვნივ და 100px-ით ქვევით გადადის. */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    transition: 1s;
+}
+
+
+
+div:hover{
+    transform: translate(0, -20px);
+}

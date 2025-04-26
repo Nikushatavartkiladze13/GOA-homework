@@ -1,0 +1,29 @@
+/* შექმენი წრე, რომელიც scale  გამოყენებით ზომაში 2-ჯერ გაიზრდება. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+
+
+div:hover{
+    transform: scale(2);
+}

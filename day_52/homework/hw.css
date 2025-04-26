@@ -1,0 +1,31 @@
+/* შექმენი კვადრატი (100px x 100px), რომელსაც 20px მარჯვნივ და 10px ქვევით გადაიტან translate  გამოყენებით */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+div{
+    width: 100px;
+    height: 100px;
+    background: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+div:hover{
+    transform: translate(20px, 100px);
+}

@@ -252,6 +252,7 @@ body{
     align-items: center;
     flex-direction: column;
     gap: 45px;
+    
 
 }
 
@@ -273,3 +274,4 @@ body{
     color: white;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.351);
 }
+

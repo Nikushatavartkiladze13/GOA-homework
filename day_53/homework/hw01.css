@@ -1,0 +1,39 @@
+/* 2. შექმენით მრგვალი, ლურჯი დივი, ანიმაციის მეშვეობით კი მისი მოძრაობა ბურთის ხტუნავს მიამსგავსეთ, გამოიყენეთ @keyframe-ები. */
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blue;
+    transition: 0.5s;
+    animation-name: ball;
+    animation-duration:3s;
+
+}
+
+
+@keyframes ball{
+    from{
+        transition: 0.5s;
+        transform: translate(0px);
+    }
+    to{
+        transition: 0.5s;
+        transform: translateY(-300px);
+    }
+}
