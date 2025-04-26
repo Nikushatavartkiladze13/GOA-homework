@@ -22,7 +22,8 @@ div{
     background-color: blue;
     transition: 0.5s;
     animation-name: ball;
-    animation-duration:3s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 
 }
 
@@ -30,10 +31,10 @@ div{
 @keyframes ball{
     from{
         transition: 0.5s;
-        transform: translate(0px);
+        transform: translateY(-300px);
     }
     to{
         transition: 0.5s;
-        transform: translateY(-300px);
+        transform: translateY(100px);
     }
 }
