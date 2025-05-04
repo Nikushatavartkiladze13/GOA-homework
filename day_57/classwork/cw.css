@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+
+body{
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+
+}
+
+
+.parent{
+    display: grid;
+    border: 3px solid red;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    gap: 10px;
+    width: 90%;
+    height: 90%;
+    margin: 10px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+
+}
+
+
+.parent div{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+
+}
+

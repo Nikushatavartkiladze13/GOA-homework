@@ -1,0 +1,50 @@
+/* შექმენით კონტეინერი რომელშიც გექნებათ მოთავსებული 9 ელემენტი თვდაპირველად ეს ელემნტები განლაგებული იქნება ჰორიზონტალურად, როდესაც ეკრანის ზომა ჩამოცდება 700 პიქსელს ეს ელენტები განლაგებულები იყვნენ გრიდის დახმარებით 3 ქოლუმნად ხოლო როდესაც ეკარნის ზომა ჩამოცდება 450 პისქსელს ყველა ელემნტი განლაგებული იყოს ვერტიკალურად */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+
+.parent{
+    padding: 30px;
+    border: 3px solid blue;
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+
+}
+
+
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+
+@media (max-width: 700px){
+    .parent{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media (max-width: 450px){
+    .parent{
+        display: flex;
+        flex-direction: column;
+    }
+}
