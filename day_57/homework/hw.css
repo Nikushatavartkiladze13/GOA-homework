@@ -13,131 +13,152 @@ body{
     background-color: hsl(204, 43%, 93%);
 }
 
-
-
 .parent{
-    width: 48%;
+    width: 50%;
     height: 65%;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px hsla(217, 22%, 67%, 0.447);
+    background: none;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-template-rows: 50% 50%;
+    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+    grid-template-rows: repeat(2, 50%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.288);;
+
 }
+
 
 .child_1{
-    grid-column-start: span 2;
-    background:none;
-    padding: 60px 46.5px 30px;
+    background-color: white;
+    grid-column: 1/span 2;
+    border-radius: 10px 10px 0px 0px;
+    padding: 30px 40px 40px 40px;
     display: grid;
-    grid-template-rows: 60px 35px 70px;
-    /* align-content: end; */
-    /* align-items: end; */
+    grid-template-rows: 1fr 17% 1fr ;
+    /* gap: 5px; */
+    align-items: center;
+
 }
 
-.h1{
-    width: 90%;
-    font-size: 1.6rem;
-    font-weight: 700;
-    color: hsl(179, 62%, 43%);
-}
-
-.p{
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: hsl(71, 73%, 54%);
-}
-
-.p_1{
-    font-weight: 400;
-    font-size: 1rem;
-    color:hsl(218, 22%, 67%);
-    line-height: 26px;
-}
 
 .child_2{
-    width: 100%;
-    height: 100%;
-    background-color: hsl(179, 61%, 44%);
-    border-radius: 0px 0px 0px 10px ;
-    display: grid;
-    padding: 40px 40px 65px 40px ;
-    gap: 17px;
-    grid-template-rows: repeat(3, 20%) 30%;
-
-}
-
-.h3{
-    color: hsl(204, 43%, 93%);
-}
-
-.box{
-    width: 100%;
-    height: 100%;
-    background:none;
+    background-color:hsl(179, 61%, 44%);
+    border-radius: 0px 0px 0px 10px;
+    padding: 38px;
     display: flex;
-    align-items: center;
-    gap: 10px;
+    flex-direction: column;
+    gap: 5px;
 }
-
-.box h1{
-    color: white;
-
-}
-
-.box p{
-    color: white;
-    opacity: 55%;
-    font-size: 1rem;
-}
-
-
-.p3{
-    color: white;
-    opacity: 80%;
-}
-
-
-.bt{
-    background-color:hsl(71, 73%, 54%);
-    border: none;
-    border-radius: 6px;
-    color: white;
-    font-weight: 600;
-    font-size: 1rem;
-    letter-spacing: 0.5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.301);
-    outline: none;
-    cursor: pointer;
-}
-
 
 
 .child_3{
-    width: 100%;
-    height: 100%;
     background-color: hsl(179, 47%, 52%);
-    border-radius: 0px 0px 10px 0px ;
+    border-radius: 0px 0px 10px 0px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    padding: 30px 30px 60px 30px;
-    gap: 15px;
-
+    gap: 10px;
 }
 
 
-@media (max-width: 1110px) {
+.h2{
+    color: hsl(179, 62%, 43%);
+
+}
+.h4{
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+
+}
+
+.p{
+    color: hsl(218, 22%, 67%);
+    line-height: 28px;;
+}
+.p1{
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.hh{
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.p2{
+    color: white;
+    opacity: 50%;
+    font-weight: 300;
+}
+
+.p3{
+    color: white;
+    opacity: 90%;
+    font-weight: 400;
+    width: 100%;
+}
+.bt{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 14.5px;
+    /* justify-self: center;
+    align-self: center; */
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.356);
+    margin: 10px 0px;
+}
+.box{
+    width: 100%;
+    padding: 10px 10px 10px 0px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.h6{
+    color: white;
+    font-weight: 500;
+}
+.p7{
+    color: white;
+    opacity: 70%;
+    line-height: 23px;;
+}
+@media (max-width: 900px){
     .parent{
         display: flex;
         flex-direction: column;
-        width: 60%;
+        width: 86%;
+        height: 90%;
+        border-radius: 6px;
+        
     }
+    .child_1{
+        width: 100%;
+        height: 38%;
+        border-radius: 6px 6px 0px 0px;
+        padding: 20px;
+        gap: 5px;
+    }
+
+    .child_2{
+        width: 100%;
+        height: 42%;
+        border-radius: 0px;
+        padding: 20px;
+        gap: 10px;
+
+    }
+    .child_3{
+        width: 100%;
+        height: 40%;
+        border-radius: 0px 0px 6px 6px;
+    }
+    .p{
+        line-height: 23px;
+    }
+
 }
 
-
-@media (max-width: 600px){
-    .parent{
-        width: 90%;
-    }
-}
