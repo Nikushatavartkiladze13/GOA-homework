@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+    font-family: "Inter";
+}
+
+
+.parent{
+    width: 70%;
+    height: 65%;
+    background-color: hsl(244, 38%, 16%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 7px;
+    grid-template-areas: "  child   images   ";
+}
+.child{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 45px 60px 45px 50px;
+    justify-content: center;
+    align-items: center;
+    grid-area: child;
+    background: none;
+    width: 100%;
+    height: 100%;
+}
+.p{
+    font-size: 40px;
+    font-weight: 600;
+}
+.p1{
+    font-size: 1rem;
+    color: hsla(0, 0%, 100%, 0.6);
+    line-height: 25px;
+    font-weight: 400;
+}
+.span_1{
+    color: hsl(277, 64%, 61%);
+}
+.child_1{ 
+    width: 100%;
+    height: 100%
+}
+
+.images{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 7px 7px 0px;
+    grid-area: images
+}
+.box{
+    width: 100%;
+    padding: 10px;
+    background: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "   .   .   .   "
+    "   span_2   span_3   span_4   ";
+    gap: 10px;
+
+
+}
+
+.p2{
+    font-weight: 700;
+    font-size: 1.4rem
+}
+.span_2{
+    font-size: 13px;
+    grid-area: span_2;
+    color: hsla(0, 0%, 100%, 0.6);
+    letter-spacing: 2px;
+
+}
+.span_3{
+    font-size: 1rem;
+    grid-area: span_3;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 13px;
+    letter-spacing: 2px;
+
+}
+.span_4{
+    font-size: 1rem;
+    grid-area: span_4;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 13px;
+    letter-spacing: 2px;
+
+
+
+}
+
+@media (max-width: 1050px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        height: 150vh;
+        padding: 10px
+    }
+    .parent{
+        display: flex;
+        flex-direction: column;
+        height: 70%
+    }
+    .child{
+        text-align: center;
+    }
+    .p{
+        font-size: 1.8rem
+    }
+    .p1{
+        line-height: 28px;
+    }
+    .images{
+        border-radius: 0px 0px 7px 7px;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        gap: 20px
+    }
+}
