@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(images_4/bg-pattern-bottom.svg);
+
+    background-repeat: no-repeat;
+    font-family: 'Kumbh Sans';
+
+}
+
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 29%;
+    height: 52%;
+    /* border: 3px solid black; */
+    border-radius: 15px;
+    background-color: white;
+    background-image: url(images_4/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+.images{
+    align-self: center;
+    justify-self: center;
+    border-radius: 50%;
+    border: 4px solid white;
+    position: relative;
+    bottom: 20px;
+}
+
+.p{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.span{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+
+
+.box{
+    width: 100%;
+    padding: 15px;
+    background: none;
+    align-self: flex-end;
+    justify-self: end;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    color: black;
+    grid-template-areas: 
+    "   .   .   .   "
+    "   span1   span2   span3   ";
+    /* margin-top: 60px; */
+    justify-content: center;
+    justify-items: center;
+    text-align: start;
+    gap: 10px;
+}
+
+
+.span1{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    grid-area: span1
+}
+
+.span2{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    grid-area: span2
+}
+
+
+.span3{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    grid-area: span3
+}
+
+.p2{
+    font-weight: 700;
+}

@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lexend Deca';
+}
+
+
+
+.parent{
+    /* border: 3px solid black; */
+    width: 65%;
+    height: 62.5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.child_1{
+    padding: 45px;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 7px 0px 0px 7px;
+    display: grid;
+    align-items: center;
+    grid-template-rows: 12% 15% 28% 30%;
+    /* align-content: center; */
+    justify-content: center;
+    gap: 10px;
+}
+.button{
+    align-self: end;
+    width: 70%;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    font-weight: 600;
+    color: hsl(31, 77%, 52%)
+}
+
+.p{
+    /* font-family: 'Anton', sans-serif; */
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: white;
+    letter-spacing: -2px;
+}
+.p1{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 14px;
+    line-height: 23px;
+    max-width: 100%
+}
+
+.child_2{
+    padding: 45px;
+    background-color: hsl(184, 100%, 22%);
+    display: grid;
+    align-items: center;
+    grid-template-rows: 12% 15% 28% 30%;
+    /* align-content: center; */
+    justify-content: center;
+    gap: 10px;
+}
+.button_1{
+    align-self: end;
+    width: 70%;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    font-weight: 600;
+    color: hsl(184, 100%, 22%)
+}
+.child_3{
+    padding: 45px;
+    background-color: hsl(179, 100%, 13%);
+    display: grid;
+    align-items: center;
+    grid-template-rows: 12% 15% 28% 30%;
+    /* align-content: center; */
+    justify-content: center;
+    gap: 10px;
+    border-radius: 0px 7px 7px 0px ;
+}
+
+
+.button_2{
+    align-self: end;
+    width: 70%;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    font-weight: 600;
+    color: hsl(179, 100%, 13%);
+    
+
+}
+
+
+@media (max-width: 1134px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        height: 200vh;
+        padding: 20px;
+    }
+    .parent{
+        display: flex;
+        flex-direction: column;
+    }
+    .child_1{
+        border-radius: 7px 7px 0px 0px;
+        gap: 30px;
+    }
+    .button{
+        align-self: flex-start;
+        /* width: 60% */
+    }
+    .child_2{
+        gap: 30px;
+    }
+    .button_1{
+        align-self: flex-start;
+    }
+    .child_3{
+        gap: 30px;
+        border-radius: 0px 0px 7px 7px;
+    }
+    .button_2{
+        align-self: flex-start;
+    }
+}
+
