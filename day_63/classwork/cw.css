@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cherish&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DynaPuff:wght@400..700&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Handlee&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Jersey+15&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&family=Young+Serif&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 300vh;
+    font-family: "inter";
+}
+
+
+.header{
+    width: 100%;
+    padding: 20px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent-div{
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+.child-div-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+
+
+}
+.big-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.ul-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    list-style-type: none;
+    font-size: 16.71px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #4D4D4D;
+}
+.images-3{
+    display: none;
+    grid-area: images-3;
+}
+.button-1{
+    padding: 13px 32px;
+    border: none;
+    border-radius: 3.78px;
+    background-color: #4CAF4F;
+    color: white;
+    font-size: 14.14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    grid-area: button-1;
+    cursor: pointer;
+}
+
+
+.section-1{
+    width: 100%;
+    padding: 40px 80px 0px 80px;
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-direction: column;
+
+}
+.images-1{
+    width: 107px;
+    grid-area: images-1;
+    cursor: pointer;
+}
+.parent-div-1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+
+
+}
+
+.Satauri-1{
+    font-size: 44.55px;
+    font-weight: 600;
+    line-height: 52.9px;
+    width: 457.32px;
+
+}
+
+#span-1{
+    color:#4CAF4F
+}
+
+.Paragrafi-1{
+    color: #717171;
+    font-size: 15.14px;
+    font-weight: 400;
+}
+
+.button-2{
+    padding: 15px;
+    width: 100px;
+    border-radius: 2.98px;
+    border: none;
+    background-color: #4CAF4F;
+    color: white;
+    font-weight: 500;
+    font-size: 14.14px;
+    cursor: pointer;
+}
+
+.Round-1{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+.round{
+    width: 9.5px;
+    height: 9.5px;
+    border-radius: 50%;
+    background-color: #4CAF4F;
+}
+
+.round-1{
+    width: 9.5px;
+    height: 9.5px;
+    border-radius: 50%;
+    background-color: #4CAF4F;
+    opacity: 30%;
+}
+
+.images-4{
+    display: none;
+}
+
+
+
+.section-2{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+
+.Satauri-2{
+    font-size: 28.06px;
+    font-weight: 600;
+}
+
+
+.Paragrafi-2{
+    font-size: 15px;
+    color: #717171;
+    font-weight: 400;
+}
+
+.parent-div-2{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding: 20px;
+    justify-items: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px){
+    .parent-div{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+        grid-template-areas: 
+        "   images-3   images-1    button-1   ";
+    }
+    .header{
+        padding: 20px 30px
+    }
+    .images-3{
+        display: flex;
+    }
+    .ul-1{
+        display: none;
+    }
+    .button-1{
+        padding: 9.5px 13px
+    }
+    .big-div{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .parent-div-1{
+        justify-content: center;
+        align-items: center;
+    }
+    .button-2{
+        width: 180px;
+    }
+    .parent-div-2{
+        grid-template-columns: repeat(3,1fr);
+        gap: 15px;
+
+
+    }
+}
+
+
+
+@media (max-width: 600px){
+    .header{
+        padding: 20px 10px;
+    }
+    .button-1{
+        display: none;
+    }
+    .images-4{
+        display: flex;
+        width: 30px;
+        height: 30px;
+    }
+    .section-1{
+        padding: 20px;
+         
+    }
+    .Satauri-1{
+        width: 100%;
+        font-size: 32.84px;
+        line-height: 40px;
+
+    }
+    .parent-div-2{
+        padding: 0px;
+        margin-top: 10px;
+    }
+}
