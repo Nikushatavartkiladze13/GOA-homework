@@ -9,7 +9,7 @@
 
 
 body{
-    height: 300vh;
+    height: 100vh;
     font-family: "inter";
 }
 
@@ -183,6 +183,7 @@ body{
 .Satauri-2{
     font-size: 28.06px;
     font-weight: 600;
+    color: #4D4D4D;
 }
 
 
@@ -205,31 +206,205 @@ body{
 
 
 
+.section-3{
+    width: 100%;
+    padding: 30px;
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Satauri-3{
+    font-size: 25.06px;
+    width: 377px;
+    line-height: 30.63px;
+    letter-spacing: 0%;
+    color: #4D4D4D
+}
+
+
+.Paragrafi-3{
+    color: #717171;
+    font-size: 15.14px;
+}
 
 
 
 
+.parent-div-3{
+    width: 80%;
+    padding: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid black; */
+    gap: 80px;
+    padding: 50px;
+
+
+}
+
+
+
+.child-div-1{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    /* border: 3px solid red; */
+    gap: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 8px 7px  rgba(0, 0, 0, 0.185);
+
+}
 
 
 
 
+.Satauri-4{
+    font-size: 28px;
+    font-weight: 700;
+    color: #4D4D4D;
+    width: 100%;
 
+}
 
+.Paragrafi-4{
+    font-size: 14px;
+    color: #717171;
+    font-weight: 400;
+    width: 75%;
+}
 
+.Satauri-5{
+    font-size: 28px;
+    color: #4D4D4D;
+    width: 185px;
+}
+.Satauri-6{
+    color: #4D4D4D;
+    font-size: 28px;
+    width: 160px;
+    font-weight: 700;
+}
+.section-4{
+    width: 100%;
+    padding: 50px;
+    background-color: #FFFFFF;
+    /* border: 3px solid blue; */
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 
+}
+.parent-div-4{
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 35px;
 
+}
+.Satauri-7{
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #4D4D4D;
 
+}
 
+.Paragrafi-5{
+    color: #717171;
+    font-size: 15px;
+    line-height: 20px;
 
+}
+.button-3{
+    width: 115.55px;
+    height: 40.9px;
+    background-color: #4CAF4F;
+    color: white;
+    font-size: 13px;
+    border: none;
+    border-radius: 3.78px;
+    font-weight: 500;
 
+}
 
+.section-5{
+    width: 100%;
+    background-color: #F5F7FA;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 
+.child-div-2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: start;
+    padding: 80px;
+    text-align: start;
 
+}
+.Satauri-8{
+    font-size: 30px ;
+    width: 324px;
+    font-weight: 600;
+    line-height: 33.63px;
 
+}
+.child-div-3{
+    width: 50%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.box-1{
+    /* padding: 5px; */
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "   images-8   Paragrafi-7   "
+    "   images-8   Paragrafi-8   "
+    
+    ;
+    align-items: center;
+}
+.images-8{
+    grid-area: images-8;
+    justify-self: center;
+    align-self: center;
+}
+.Paragrafi-7{
+    grid-area: Paragrafi-7;
+    font-size: 23px;
+    font-weight: 600;
+    color: #4D4D4D
+    
 
-
-
+}
+.Paragrafi-8{
+    grid-area: Paragrafi-8;
+    font-size: 13px; 
+    color: #717171;
+    font-weight: 400;
+}
 
 @media (max-width: 1000px){
     .parent-div{
@@ -276,6 +451,60 @@ body{
 
 
     }
+    .parent-div-3{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-4{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 30px;
+    }
+    .Satauri-7{
+        width: 100%;
+
+    }
+    .parent-div-4{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+
+    }
+    .section-5{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+    }
+    .child-div-2{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 15px;
+
+    }
+    .Satauri-8{
+        width: 100%;
+
+    }
+    .child-div-3{
+
+        width: 100%;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        gap: 20px;
+
+    }
+    .box-1{
+        column-gap: 10px;
+    }
 }
 
 
@@ -283,6 +512,7 @@ body{
 @media (max-width: 600px){
     .header{
         padding: 20px 10px;
+        justify-content: space-between;
     }
     .button-1{
         display: none;
@@ -305,5 +535,38 @@ body{
     .parent-div-2{
         padding: 0px;
         margin-top: 10px;
+    }
+    .Satauri-3{
+        width: 92%;
+
+    }
+    .section-3{
+        padding: 10px;
+        gap: 30px;
+
+
+    }
+    .parent-div-3{
+        padding: 15px;
+        
+
+    }
+    .parent-div-4{
+        padding: 0px;
+
+    }
+    .Satauri-7{
+        font-size: 24px;
+
+    }
+    .section-5{
+        padding: 10px;
+    }
+    .child-div-2{
+        width: 100%;
+    }
+    .child-div-3{
+        display: flex;
+        flex-direction: column;
     }
 }
