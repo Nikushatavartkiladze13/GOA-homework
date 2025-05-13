@@ -3,8 +3,8 @@
 
 
 
-var firstNumber = prompt("Enter your first Number: ")
-var secondNumber = prompt("Enter your second Number: ")
+var firstNumber = Number(prompt("Enter your first Number: "))
+var secondNumber =Number(prompt("Enter your second Number: "))
 
 
-console.log(firstNumber > secondNumber)
+console.log(firstNumber == secondNumber)
