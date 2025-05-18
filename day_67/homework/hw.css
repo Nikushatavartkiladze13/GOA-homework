@@ -1,0 +1,653 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cherish&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DynaPuff:wght@400..700&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Handlee&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Jersey+15&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&family=Young+Serif&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 500vh;
+    font-family: "inter";
+}
+
+
+.header{
+    width: 100%;
+    padding: 20px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent-div{
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+.child-div-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+
+
+}
+.big-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.ul-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    list-style-type: none;
+    font-size: 16.71px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #4D4D4D;
+}
+.images-3{
+    display: none;
+    grid-area: images-3;
+}
+.button-1{
+    padding: 13px 32px;
+    border: none;
+    border-radius: 3.78px;
+    background-color: #4CAF4F;
+    color: white;
+    font-size: 14.14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    grid-area: button-1;
+    cursor: pointer;
+}
+
+
+.section-1{
+    width: 100%;
+    padding: 40px 80px 0px 80px;
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-direction: column;
+
+}
+.images-1{
+    width: 107px;
+    grid-area: images-1;
+    cursor: pointer;
+}
+.parent-div-1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+
+
+}
+
+.Satauri-1{
+    font-size: 44.55px;
+    font-weight: 600;
+    line-height: 52.9px;
+    width: 457.32px;
+
+}
+
+#span-1{
+    color:#4CAF4F
+}
+
+.Paragrafi-1{
+    color: #717171;
+    font-size: 15.14px;
+    font-weight: 400;
+}
+
+.button-2{
+    padding: 15px;
+    width: 100px;
+    border-radius: 2.98px;
+    border: none;
+    background-color: #4CAF4F;
+    color: white;
+    font-weight: 500;
+    font-size: 14.14px;
+    cursor: pointer;
+}
+
+.Round-1{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+.round{
+    width: 9.5px;
+    height: 9.5px;
+    border-radius: 50%;
+    background-color: #4CAF4F;
+}
+
+.round-1{
+    width: 9.5px;
+    height: 9.5px;
+    border-radius: 50%;
+    background-color: #4CAF4F;
+    opacity: 30%;
+}
+
+.images-4{
+    display: none;
+}
+
+
+
+.section-2{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+
+.Satauri-2{
+    font-size: 28.06px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+
+.Paragrafi-2{
+    font-size: 15px;
+    color: #717171;
+    font-weight: 400;
+}
+
+.parent-div-2{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding: 20px;
+    justify-items: center;
+    align-items: center;
+
+}
+
+
+
+
+.section-3{
+    width: 100%;
+    padding: 30px;
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Satauri-3{
+    font-size: 25.06px;
+    width: 377px;
+    line-height: 30.63px;
+    letter-spacing: 0%;
+    color: #4D4D4D
+}
+
+
+.Paragrafi-3{
+    color: #717171;
+    font-size: 15.14px;
+}
+
+
+
+
+.parent-div-3{
+    width: 80%;
+    padding: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid black; */
+    gap: 80px;
+    padding: 50px;
+
+
+}
+
+
+
+.child-div-1{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    /* border: 3px solid red; */
+    gap: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 8px 7px  rgba(0, 0, 0, 0.185);
+
+}
+
+
+
+
+.Satauri-4{
+    font-size: 28px;
+    font-weight: 700;
+    color: #4D4D4D;
+    width: 100%;
+
+}
+
+.Paragrafi-4{
+    font-size: 14px;
+    color: #717171;
+    font-weight: 400;
+    width: 75%;
+}
+
+.Satauri-5{
+    font-size: 28px;
+    color: #4D4D4D;
+    width: 185px;
+}
+.Satauri-6{
+    color: #4D4D4D;
+    font-size: 28px;
+    width: 160px;
+    font-weight: 700;
+}
+.section-4{
+    width: 100%;
+    padding: 50px;
+    background-color: #FFFFFF;
+    /* border: 3px solid blue; */
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.parent-div-4{
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 35px;
+
+}
+.Satauri-7{
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #4D4D4D;
+
+}
+
+.Paragrafi-5{
+    color: #717171;
+    font-size: 15px;
+    line-height: 20px;
+
+}
+.button-3{
+    width: 115.55px;
+    height: 40.9px;
+    background-color: #4CAF4F;
+    color: white;
+    font-size: 13px;
+    border: none;
+    border-radius: 3.78px;
+    font-weight: 500;
+
+}
+
+.section-5{
+    width: 100%;
+    background-color: #F5F7FA;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.child-div-2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: start;
+    padding: 80px;
+    text-align: start;
+
+}
+.Satauri-8{
+    font-size: 30px ;
+    width: 324px;
+    font-weight: 600;
+    line-height: 33.63px;
+
+}
+.child-div-3{
+    width: 50%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.box-1{
+    /* padding: 5px; */
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "   images-8   Paragrafi-7   "
+    "   images-8   Paragrafi-8   "
+    
+    ;
+    align-items: center;
+}
+.images-8{
+    grid-area: images-8;
+    justify-self: center;
+    align-self: center;
+}
+.Paragrafi-7{
+    grid-area: Paragrafi-7;
+    font-size: 23px;
+    font-weight: 600;
+    color: #4D4D4D
+    
+
+}
+.Paragrafi-8{
+    grid-area: Paragrafi-8;
+    font-size: 13px; 
+    color: #717171;
+    font-weight: 400;
+}
+
+.images-7{
+    height: 100%;
+    width: 30%
+}
+
+.section-6{
+    width: 100%;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    background-color: #F5F7FA;
+}
+.child-div-4{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+    justify-content: start;
+    gap: 30px;
+    
+
+}
+
+.Paragrafi-10{
+    color: #717171;
+    line-height: 26px;
+    font-size: 18px;
+}
+
+.h4{
+    color: #4CAF4F;
+    font-weight: 600;
+    font-size: 18px;
+
+
+}
+
+.parent-div-6{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 45px;
+
+
+
+}
+
+
+.Green-P{
+    font-size: 16px;
+    color: #4CAF4F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+@media (max-width: 1000px){
+    .parent-div{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+        grid-template-areas: 
+        "   images-3   images-1    button-1   ";
+    }
+    .header{
+        padding: 20px 30px
+    }
+    .images-3{
+        display: flex;
+    }
+    .ul-1{
+        display: none;
+    }
+    .button-1{
+        padding: 9.5px 13px
+    }
+    .big-div{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .parent-div-1{
+        justify-content: center;
+        align-items: center;
+    }
+    .button-2{
+        width: 180px;
+    }
+    .parent-div-2{
+        grid-template-columns: repeat(3,1fr);
+        gap: 15px;
+
+
+    }
+    .parent-div-3{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-4{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 30px;
+    }
+    .Satauri-7{
+        width: 100%;
+
+    }
+    .parent-div-4{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+
+    }
+    .section-5{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+    }
+    .child-div-2{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 15px;
+
+    }
+    .Satauri-8{
+        width: 100%;
+
+    }
+    .child-div-3{
+
+        width: 100%;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        gap: 20px;
+
+    }
+    .box-1{
+        column-gap: 10px;
+    }
+    .images-7{
+        width: 75%;
+    }
+    .section-6{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .child-div-4{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .parent-div-6{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+
+@media (max-width: 600px){
+    .header{
+        padding: 20px 10px;
+        justify-content: space-between;
+    }
+    .button-1{
+        display: none;
+    }
+    .images-4{
+        display: flex;
+        width: 30px;
+        height: 30px;
+    }
+    .section-1{
+        padding: 20px;
+         
+    }
+    .Satauri-1{
+        width: 100%;
+        font-size: 32.84px;
+        line-height: 40px;
+
+    }
+    .parent-div-2{
+        padding: 0px;
+        margin-top: 10px;
+    }
+    .Satauri-3{
+        width: 92%;
+
+    }
+    .section-3{
+        padding: 10px;
+        gap: 30px;
+
+
+    }
+    .parent-div-3{
+        padding: 15px;
+        
+
+    }
+    .parent-div-4{
+        padding: 0px;
+
+    }
+    .Satauri-7{
+        font-size: 24px;
+
+    }
+    .section-5{
+        padding: 10px;
+    }
+    .child-div-2{
+        width: 100%;
+    }
+    .child-div-3{
+        display: flex;
+        flex-direction: column;
+    }
+    .images-7{
+        width: 100%
+    }
+}
