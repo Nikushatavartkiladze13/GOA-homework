@@ -6,14 +6,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
 body{
-    height: 500vh;
+    height: 100vh;
     font-family: "inter";
 }
-
-
 .header{
     width: 100%;
     padding: 20px 70px;
@@ -31,22 +27,18 @@ body{
     display: flex;
     flex-direction: column;
     gap: 50px;
-
 }
 .child-div-1{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 35px;
-
-
 }
 .big-div{
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
 .ul-1{
     display: flex;
@@ -78,8 +70,6 @@ body{
     grid-area: button-1;
     cursor: pointer;
 }
-
-
 .section-1{
     width: 100%;
     padding: 40px 80px 0px 80px;
@@ -89,7 +79,6 @@ body{
     align-items: center;
     gap: 80px;
     flex-direction: column;
-
 }
 .images-1{
     width: 107px;
@@ -101,28 +90,21 @@ body{
     flex-direction: column;
     gap: 30px;
     justify-content: center;
-
-
 }
-
 .Satauri-1{
     font-size: 44.55px;
     font-weight: 600;
     line-height: 52.9px;
     width: 457.32px;
-
 }
-
 #span-1{
     color:#4CAF4F
 }
-
 .Paragrafi-1{
     color: #717171;
     font-size: 15.14px;
     font-weight: 400;
 }
-
 .button-2{
     padding: 15px;
     width: 100px;
@@ -134,7 +116,6 @@ body{
     font-size: 14.14px;
     cursor: pointer;
 }
-
 .Round-1{
     width: 100%;
     padding: 20px;
@@ -144,15 +125,12 @@ body{
     gap: 10px;
 
 }
-
-
 .round{
     width: 9.5px;
     height: 9.5px;
     border-radius: 50%;
     background-color: #4CAF4F;
 }
-
 .round-1{
     width: 9.5px;
     height: 9.5px;
@@ -160,13 +138,9 @@ body{
     background-color: #4CAF4F;
     opacity: 30%;
 }
-
 .images-4{
     display: none;
 }
-
-
-
 .section-2{
     width: 100%;
     padding: 20px;
@@ -178,21 +152,16 @@ body{
     gap: 25px;
 
 }
-
-
 .Satauri-2{
     font-size: 28.06px;
     font-weight: 600;
     color: #4D4D4D;
 }
-
-
 .Paragrafi-2{
     font-size: 15px;
     color: #717171;
     font-weight: 400;
 }
-
 .parent-div-2{
     width: 70%;
     display: grid;
@@ -202,10 +171,6 @@ body{
     align-items: center;
 
 }
-
-
-
-
 .section-3{
     width: 100%;
     padding: 30px;
@@ -217,7 +182,6 @@ body{
     flex-direction: column;
     text-align: center;
 }
-
 .Satauri-3{
     font-size: 25.06px;
     width: 377px;
@@ -225,16 +189,10 @@ body{
     letter-spacing: 0%;
     color: #4D4D4D
 }
-
-
 .Paragrafi-3{
     color: #717171;
     font-size: 15.14px;
 }
-
-
-
-
 .parent-div-3{
     width: 80%;
     padding: 10px;
@@ -247,9 +205,6 @@ body{
 
 
 }
-
-
-
 .child-div-1{
     background-color: white;
     display: flex;
@@ -263,10 +218,6 @@ body{
     box-shadow: 0px 8px 7px  rgba(0, 0, 0, 0.185);
 
 }
-
-
-
-
 .Satauri-4{
     font-size: 28px;
     font-weight: 700;
@@ -338,7 +289,6 @@ body{
     font-weight: 500;
 
 }
-
 .section-5{
     width: 100%;
     background-color: #F5F7FA;
@@ -348,7 +298,6 @@ body{
     align-items: center;
 
 }
-
 .child-div-2{
     width: 50%;
     display: flex;
@@ -405,12 +354,10 @@ body{
     color: #717171;
     font-weight: 400;
 }
-
 .images-7{
     height: 100%;
     width: 30%
 }
-
 .section-6{
     width: 100%;
     padding: 60px;
@@ -430,13 +377,11 @@ body{
     
 
 }
-
 .Paragrafi-10{
     color: #717171;
     line-height: 26px;
     font-size: 18px;
 }
-
 .h4{
     color: #4CAF4F;
     font-weight: 600;
@@ -444,7 +389,6 @@ body{
 
 
 }
-
 .parent-div-6{
     width: 100%;
     display: flex;
@@ -455,8 +399,6 @@ body{
 
 
 }
-
-
 .Green-P{
     font-size: 16px;
     color: #4CAF4F;
@@ -465,6 +407,131 @@ body{
     align-items: center;
     gap: 15px;
 
+}
+.section-7{
+    width: 100%;
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+
+}
+.Caring{
+    color: #4D4D4D;
+    font-size: 28.96px;
+    font-weight: 600;
+
+}
+.nexcent{
+    color: #717171;
+    font-size: 19.71px;
+    width: 837.13px;
+    line-height: 28px;
+}
+.readmore{
+    width: 100%;
+    padding: 0px 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.creating{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+}
+.section-8{
+    width: 100%;
+    padding: 40px;
+    background-color: #F5F7FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}   
+.pellentesque{
+    color: #263238;
+    font-size: 44.55px;
+    width: 680px;
+    line-height: 65px;
+}
+
+.section-9{
+    width: 100%;
+    padding: 30px;
+    background-color: #263238;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button-7{
+    padding: 13px 32px;
+    border: none;
+    border-radius: 3.78px;
+    background-color: #4CAF4F;
+    color: white;
+    font-size: 14.14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    grid-area: button-1;
+    cursor: pointer;
+}
+
+.footer-div{
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 50%;
+    justify-content: center;
+
+}
+.lo{
+    width: 190px;
+}
+.all{
+    color:#F5F7FA;
+    font-size: 13.74px;
+    width: 280px;
+    line-height: 23.92px;
+
+}
+.icon-div{
+    display: flex;
+    gap: 20px;
+}
+.footer-div-2{
+    width: 50%;
+    display: flex;
+    gap: 100px;
+
+}
+.footer-ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #d1d2d3;
+    
+
+}
+.footer-ul h1{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
 }
 @media (max-width: 1000px){
     .parent-div{
@@ -508,8 +575,6 @@ body{
     .parent-div-2{
         grid-template-columns: repeat(3,1fr);
         gap: 15px;
-
-
     }
     .parent-div-3{
         display: flex;
@@ -583,9 +648,49 @@ body{
         flex-wrap: wrap;
         justify-content: center;
     }
+    .section-7{
+        padding: 30px;
+
+    }
+    .nexcent{
+        width: 80%;
+
+    }
+    .readmore{
+        display: flex;
+        flex-direction: column;
+    }
+    .pellentesque{
+        width: 80%;
+        font-size: 30px;
+        line-height: 25px;
+    }
+    .section-9{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+
+    }
+    .footer-div{
+        width: 100%;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+    .all{
+        width: 100%;
+    }
+    .lo{
+        width: 70%
+    }
+    .footer-div-2{
+        display: none;
+        
+    }
+    
 }
-
-
 
 @media (max-width: 600px){
     .header{
@@ -649,5 +754,21 @@ body{
     }
     .images-7{
         width: 100%
+    }
+    .nexcent{
+        width: 100%;
+    }
+    .section-7{
+        padding: 10px;
+
+    }
+    .pellentesque{
+        width: 100%;
+        font-size: 25px;
+
+    }
+    .section-8{
+        padding: 10px;
+        flex-direction: column;
     }
 }
