@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 600vh;
+    font-family: "Inter";
+}
+
+.header{
+    width: 100%;
+    padding: 36.5px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.heading-1{
+    color: black;
+    font-size: 28px;
+    font-weight: 700;
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+.heading-1 span{
+    color: #FFA03F;
+    
+}
+.ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.img-1{
+    width: 24px;
+    height: 24px;
+    justify-self: center;
+    align-self: center;
+}
+
+
+.menu{
+    width: 31px;
+}
+
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.hero-div-1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 0px 0px 20px;
+    transform: translateX(115px);
+    
+}
+.hero-div-2{
+    width: 50%;
+}
+.heading-2{
+    font-size: 100px;
+    font-weight: 700;
+    width: 584px;
+    line-height: 137%;
+}
+.heading-2 span{
+    text-decoration: underline #FFA03F 8px;
+}
+.paragraph{
+    font-size: 24px;
+    color: #000000BF;
+    font-weight: 500;
+    width: 606px;
+    line-height: 137%;
+}
+.child-div{
+    width: 100%;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.082);
+    bla
+}
+@media (max-width: 890px){
+    .header{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+        "   nav   h1   menu-1   ";
+        justify-items: center;
+        align-items: center;
+    }
+    nav{
+        grid-area: nav;
+    }
+    .ul{
+        display: none;
+    }
+    .heading-1{
+        grid-area: h1;
+    }
+    .menu{
+        grid-area: menu-1;
+    }
+}
