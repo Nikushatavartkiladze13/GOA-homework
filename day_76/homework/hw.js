@@ -1,34 +1,24 @@
-function backgroundModerl(){
-    let color = document.getElementById('background_moder').value
 
-    if (color){
-        document.body.style.backgroundColor = color;
-    }
+
+let h1 = document.getElementsByTagName("h1")
+let sum = 0
+function increase(){
+    sum++
+    h1[0].innerHTML = sum
+    h1[0].style.color = "green"
+
 }
 
-let display = document.getElementById('input_2')
 
-function element(Element){
-    display.value = display.value + Element
+function subtraction(){
+    sum--
+    h1[0].innerHTML = sum
+    h1[0].style.color = "red"
 }
 
-function calculate(){
-    try{
-        display.value = eval(display.value)
-    }
-    catch(error){
-        display.value = 'None'
-    }
-}
+function reset(){
+    sum = 0
+    h1[0].innerHTML = sum
+    h1[0].style.color = "black"
 
-function clean(){
-    display.value = ''
-}
-
-function Delete(){
-    display.value = display.value.slice(0, -1)
-}
-
-function procent(){
-    display.value = display.value / 100
 }
