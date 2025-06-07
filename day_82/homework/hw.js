@@ -8,6 +8,10 @@ function interval(){
         h1.textContent = `${time.getHours()}:${time.getMinutes()}:0${time.getSeconds()}`
 
     }
+    if(time.getSeconds() < 10){
+        h1.textContent = `${time.getHours()}:0${time.getMinutes()}:0${time.getSeconds()}`
+
+    }
 }
 
 

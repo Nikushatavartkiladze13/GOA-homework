@@ -16,5 +16,6 @@ clickButton.addEventListener("click", function(){
     Color.style.color = resultColor
     main.style.backgroundColor = resultColor
     resultColor = '#'
-    
+    let myAudio = new Audio("audio.wav")
+    myAudio.play()
 })
