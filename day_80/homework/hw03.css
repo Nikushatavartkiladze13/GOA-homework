@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    caret-color: transparent;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(#F8A4D8, #6C63FF);
+    font-family: "Open Sans";
+}
+
+
+.parent{
+    padding: 30px; 
+    border: 3px solid #5e57e8;
+    border-radius: 8px;
+    backdrop-filter: blur(10%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.h1{
+    font-family: "Concert One";
+    color: #0600AB;
+    cursor: pointer;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.form input{
+    caret-color: #0600AB;
+    padding: 10px 14px;;
+    font-size: 15px;
+    border-radius: 3.5px;
+    background:none;
+    border: 2px solid #5e57e8;
+    outline: none;
+}
+
+input::placeholder{
+    color: #0600AB;
+}
+
+button{
+    padding: 13px 50px;
+    border: 2px solid #5e57e8;
+    color: #0600AB;
+    background: none;
+    font-size: 15px;
+    border-radius: 7px;
+    font-weight: 600;
+}

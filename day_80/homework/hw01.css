@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    caret-color: transparent;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(#F8A4D8, #6C63FF);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img02{
+    width: 280px;
+    height: 350px;
+}
